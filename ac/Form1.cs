@@ -24,7 +24,7 @@ namespace ac
         public static string usernae;
         public static string passwod;
 
-        public Form1()
+        public Form1()//getfuckedkiddo
         {
             InitializeComponent();
         }
