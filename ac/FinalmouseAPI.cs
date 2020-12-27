@@ -96,7 +96,10 @@ namespace aimgods
                             poggiesBox.Text += "[" + i + "] " + result;
                             poggiesBox.Text += Environment.NewLine;
                         }
-
+                        if ((string)goldenKeys["isRewardReceived"]!="False")
+                        {
+                            MessageBox.Show("pog u won something\ncheck the textbox and ur emails\n"+ (string)goldenKeys["isRewardReceived"]);
+                        }
                     }
                 }
                 catch
@@ -106,7 +109,6 @@ namespace aimgods
                 }
                 Thread.Sleep(delay);
             }
-            
         }
     }
 }

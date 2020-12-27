@@ -1,6 +1,5 @@
 ﻿using aimgods;
 using System;
-using System.ComponentModel;
 using System.Drawing;
 using System.Net.Mime;
 using System.Windows.Forms;
@@ -8,16 +7,17 @@ using System.Threading;
 
 namespace ac
 {
-    public partial class Form2 : Form
+    public partial class Keyopener : Form
     {
-        private static bool active;
         public FinalmouseAPI API;
-        public Form2()
+        public Keyopener()
         {
+
             InitializeComponent();
             zwei = KeyText;
-            BackgroundWorker refresh = new BackgroundWorker();
+
         }
+
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -47,7 +47,8 @@ namespace ac
         {
             mousedown = false;
         }
-        private void Refresh()
+
+        public void Refresh2()
         {
             try
             {
@@ -76,7 +77,7 @@ namespace ac
         }
         private void refresh_Click(object sender, EventArgs e)
         {
-            Refresh();
+            Refresh2();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -104,6 +105,17 @@ namespace ac
         private void pictureBox4_Click(object sender, EventArgs e)
         {
         
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

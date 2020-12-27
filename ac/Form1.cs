@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,15 +19,14 @@ namespace ac
     
     public partial class Form1 : Form
     {
-        private static bool activepress = false;
         public static int requests;
         public static int delayms;
         public static string usernae;
         public static string passwod;
-        public Form1()
+
+        public Form1()//getfuckedkiddo
         {
             InitializeComponent();
-            
         }
         bool isrunning = true;
         private Point offset;
@@ -64,37 +62,37 @@ namespace ac
         {
             usernae = username.Text;
             passwod = passwordtext.Text;
+            if (usernae==""||passwod=="")
+            {
+                MessageBox.Show("pls enter username and password");
+                return;
+            }
             try
             {
                 FinalmouseAPI API = new FinalmouseAPI(null,usernae,passwod);
-                Form2 formm = new Form2();
+                Keyopener formm = new Keyopener();
                 formm.API = API;
-                formm.Refresh();
+                formm.Refresh2();
                 API.meAPI();
                 this.Hide();
                 formm.Show();
             }
             catch (Exception exception)
             {
-                MessageBox.Show("non poggies");
+                MessageBox.Show("couldn't login\nto see full error click alt+shift and okay");
+
                 if (Keyboard.IsKeyDown(Key.LeftShift)&&Keyboard.IsKeyDown(Key.LeftAlt))
                     throw;
             }
         }
-        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == '\n')
-            {
-                button1_Click_1(null,null);
-            }
+            System.Diagnostics.Process.Start("http://tpcg.io/95A4f92e");
         }
-        private void passwordtext_KeyPress(object sender, KeyPressEventArgs e)
+
+        private void label5_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == '\n')
-            {
-                button1_Click_1(this,new EventArgs());
-                e.Handled = true;
-            }
+            System.Diagnostics.Process.Start("https://discord.com/invite/3TKP87Xff9");
         }
     }
 }
