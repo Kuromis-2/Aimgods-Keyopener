@@ -23,8 +23,8 @@
         #region Vom Windows Form-Designer generierter Code
 
         /// <summary>
-        /// Erforderliche Methode für die Designerunterstützung.
-        /// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -41,66 +41,66 @@
             this.gradientPanel1 = new ac.gradientPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).BeginInit();
             this.gradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.label1.Location = new System.Drawing.Point(392, 68);
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.label1.Location = new System.Drawing.Point(318, 103);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 22);
+            this.label1.Size = new System.Drawing.Size(150, 32);
             this.label1.TabIndex = 2;
             this.label1.Text = "Username";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.label2.Location = new System.Drawing.Point(395, 128);
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.label2.Location = new System.Drawing.Point(318, 154);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 22);
+            this.label2.Size = new System.Drawing.Size(145, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Password";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.label3.Location = new System.Drawing.Point(545, 128);
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.label3.Location = new System.Drawing.Point(464, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(16, 22);
+            this.label3.Size = new System.Drawing.Size(22, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = ":";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.label4.Location = new System.Drawing.Point(545, 68);
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.label4.Location = new System.Drawing.Point(464, 103);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 22);
+            this.label4.Size = new System.Drawing.Size(22, 32);
             this.label4.TabIndex = 6;
             this.label4.Text = ":";
             // 
             // Login
             // 
-            this.Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.Login.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.Login.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.Login.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int) (((byte) (25)))), ((int) (((byte) (27)))), ((int) (((byte) (39)))));
             this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Login.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.Login.Location = new System.Drawing.Point(12, 232);
+            this.Login.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.Login.ForeColor = System.Drawing.Color.White;
+            this.Login.Location = new System.Drawing.Point(301, 232);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(851, 82);
+            this.Login.Size = new System.Drawing.Size(562, 82);
             this.Login.TabIndex = 7;
             this.Login.Text = "Login";
             this.Login.UseVisualStyleBackColor = false;
@@ -108,11 +108,11 @@
             // 
             // username
             // 
-            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(59)))));
+            this.username.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (45)))), ((int) (((byte) (47)))), ((int) (((byte) (59)))));
             this.username.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.username.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.username.Location = new System.Drawing.Point(617, 61);
+            this.username.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.username.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.username.Location = new System.Drawing.Point(492, 103);
             this.username.Multiline = true;
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(246, 37);
@@ -127,11 +127,11 @@
             // 
             // passwordtext
             // 
-            this.passwordtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(59)))));
+            this.passwordtext.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (45)))), ((int) (((byte) (47)))), ((int) (((byte) (59)))));
             this.passwordtext.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.passwordtext.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordtext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
-            this.passwordtext.Location = new System.Drawing.Point(615, 119);
+            this.passwordtext.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.passwordtext.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
+            this.passwordtext.Location = new System.Drawing.Point(492, 154);
             this.passwordtext.Multiline = true;
             this.passwordtext.Name = "passwordtext";
             this.passwordtext.PasswordChar = '*';
@@ -140,20 +140,20 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 46);
+            this.pictureBox4.Location = new System.Drawing.Point(-2, 46);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(297, 180);
+            this.pictureBox4.Size = new System.Drawing.Size(297, 277);
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             // 
             // gradientPanel1
             // 
             this.gradientPanel1.Angle = 180F;
-            this.gradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(213)))), ((int)(((byte)(146)))));
-            this.gradientPanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(146)))));
-            this.gradientPanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(169)))), ((int)(((byte)(88)))));
+            this.gradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (255)))), ((int) (((byte) (213)))), ((int) (((byte) (146)))));
+            this.gradientPanel1.ColorBottom = System.Drawing.Color.FromArgb(((int) (((byte) (255)))), ((int) (((byte) (214)))), ((int) (((byte) (146)))));
+            this.gradientPanel1.ColorTop = System.Drawing.Color.FromArgb(((int) (((byte) (225)))), ((int) (((byte) (169)))), ((int) (((byte) (88)))));
             this.gradientPanel1.Controls.Add(this.pictureBox2);
             this.gradientPanel1.Controls.Add(this.pictureBox1);
             this.gradientPanel1.Location = new System.Drawing.Point(-2, 0);
@@ -167,7 +167,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(780, 0);
             this.pictureBox2.Name = "pictureBox2";
@@ -179,7 +179,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(828, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -192,7 +192,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (25)))), ((int) (((byte) (27)))), ((int) (((byte) (39)))));
             this.ClientSize = new System.Drawing.Size(875, 335);
             this.Controls.Add(this.passwordtext);
             this.Controls.Add(this.pictureBox4);
@@ -204,17 +204,16 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).EndInit();
             this.gradientPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
