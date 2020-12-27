@@ -100,7 +100,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\aim gods_1.png" />
+    <None Include="Resources\AimGods.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AimGods1.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="aim gods_1.png" />
