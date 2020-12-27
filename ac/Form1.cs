@@ -74,8 +74,9 @@ namespace ac
             }
             catch (Exception exception)
             {
-                MessageBox.Show("non poggies");
-                throw;
+                MessageBox.Show("couldn't login");
+                if (Keyboard.IsKeyDown(Key.LeftShift)&&Keyboard.IsKeyDown(Key.LeftAlt))
+                    throw;
             }
         }
     }

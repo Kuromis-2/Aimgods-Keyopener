@@ -53,7 +53,7 @@ namespace ac
             try
             {
                 API.meAPI();
-                if (LabelRank.Text=="0")
+                if ((string)API.me["PlayerRank"]=="0")
                 {
                     LabelRank.Text = "N/A";
                 }
