@@ -155,11 +155,11 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::ac.Properties.Resources.aim_gods_1;
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(-65, 49);
+            this.pictureBox4.Location = new System.Drawing.Point(-39, 50);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(310, 196);
+            this.pictureBox4.Size = new System.Drawing.Size(305, 196);
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
             // 
@@ -303,6 +303,7 @@
             this.Controls.Add(this.LabelRank);
             this.Controls.Add(this.gradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.gradientPanel1.ResumeLayout(false);

@@ -1,5 +1,6 @@
 ﻿using aimgods;
 using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Net.Mime;
 using System.Windows.Forms;
@@ -9,15 +10,14 @@ namespace ac
 {
     public partial class Form2 : Form
     {
+        private static bool active;
         public FinalmouseAPI API;
         public Form2()
         {
-
             InitializeComponent();
             zwei = KeyText;
-
+            BackgroundWorker refresh = new BackgroundWorker();
         }
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -47,13 +47,12 @@ namespace ac
         {
             mousedown = false;
         }
-
         private void Refresh()
         {
             try
             {
                 API.meAPI();
-                if (LabelRank.Text=="0")
+                if ((string)API.me["PlayerRank"]=="0")
                 {
                     LabelRank.Text = "N/A";
                 }

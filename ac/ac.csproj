@@ -102,5 +102,9 @@
   <ItemGroup>
     <None Include="Resources\aim gods_1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="aim gods_1.png" />
+    <Content Include="favicon.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
