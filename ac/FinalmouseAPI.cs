@@ -98,7 +98,8 @@ namespace aimgods
                         }
                         if ((string)goldenKeys["isRewardReceived"]!="False")
                         {
-                            MessageBox.Show("pog u won something\ncheck the textbox and ur emails\n"+ (string)goldenKeys["isRewardReceived"]);
+                            JObject rewardata = (JObject)goldenKeys["reward"];
+                            MessageBox.Show("pog u won something\ncheck the textbox and ur emails\n"+"u won "+(string)rewardata["rewardTitle"]);
                         }
                     }
                 }
